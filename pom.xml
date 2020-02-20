@@ -16,6 +16,10 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <sonar.projectKey>BryanBenavente_spring-security</sonar.projectKey>
+        <sonar.organization>bryanbenavente</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>0c46fac8351c54e114a605e19f9db3a520e79373</sonar.login>
     </properties>
 
     <dependencies>

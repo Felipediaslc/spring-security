@@ -1,0 +1,6 @@
+com\martinsaman\springsecurity\config\SecurityConfig.class
+com\martinsaman\springsecurity\config\UserDetailsServiceImp.class
+com\martinsaman\springsecurity\persistence\Persona.class
+com\martinsaman\springsecurity\rest\PersonaRest.class
+com\martinsaman\springsecurity\persistence\IPersona.class
+com\martinsaman\springsecurity\SpringsecurityApplication.class
