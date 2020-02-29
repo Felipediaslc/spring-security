@@ -8,5 +8,7 @@ addons:
         secure: 0c46fac8351c54e114a605e19f9db3a520e79373
 jdk:
   - oraclejdk8
-script:
-  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=BryanBenavente_spring-security
+cache:
+  directories:
+    -'$HOME/.m2/repository'
+    -'$HOME/.sonar/cache'
