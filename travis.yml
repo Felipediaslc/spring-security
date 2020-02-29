@@ -1,5 +1,4 @@
 language: java
-sudo: false
 install: true
 addons:
   sonarcloud:
@@ -7,8 +6,7 @@ addons:
       token:
         secure: 0c46fac8351c54e114a605e19f9db3a520e79373
 jdk:
-  - oraclejdk8
-cache:
-  directories:
-    -'$HOME/.m2/repository'
-    -'$HOME/.sonar/cache'
+  - oraclejdk8  
+  - openjdk8
+script:
+  mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
