@@ -1,7 +1,7 @@
 organization=bryanbenavente
 projectKey=BryanBenavente_spring-security
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.4802
+serverVersion=8.0.0.4927
 dashboardUrl=https://sonarcloud.io/dashboard?id=BryanBenavente_spring-security
-ceTaskId=AXBgljFzNnr-di6pWlMJ
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXBgljFzNnr-di6pWlMJ
+ceTaskId=AXBlDq1_7TFTRjrsOUhR
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXBlDq1_7TFTRjrsOUhR
