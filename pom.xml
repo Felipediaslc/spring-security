@@ -16,10 +16,10 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <sonar.projectKey>BryanBenavente_spring-security</sonar.projectKey>
-        <sonar.organization>bryanbenavente</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>0c46fac8351c54e114a605e19f9db3a520e79373</sonar.login>
+        <sonar.projectKey>spring-security</sonar.projectKey>
+        <!--<sonar.organization>bryanbenavente</sonar.organization> -->
+        <sonar.host.url>http://ip172-18-0-18-c1m9mbpbqvp0009gjdn0-9000.direct.labs.play-with-docker.com</sonar.host.url>
+        <sonar.login>449524af6fc512a6c619f427788ba42da2937638</sonar.login>
     </properties>
 
     <dependencies>
