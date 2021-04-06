@@ -15,11 +15,11 @@
     <description>Probando spring security</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        
         <sonar.projectKey>spring-security</sonar.projectKey>
-        <!--<sonar.organization>bryanbenavente</sonar.organization> -->
         <sonar.host.url>http://ip172-18-0-18-c1m9mbpbqvp0009gjdn0-9000.direct.labs.play-with-docker.com</sonar.host.url>
-        <sonar.login>449524af6fc512a6c619f427788ba42da2937638</sonar.login>
+        <sonar.login>fef0369dbf4058ad59f652fc31c6e995ac481b8d</sonar.login>
+        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
@@ -28,7 +28,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!--        spring security     -->
+        <!--     <!--<sonar.organization>bryanbenavente</sonar.organization> -->   spring security     -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
